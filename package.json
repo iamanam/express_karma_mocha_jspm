@@ -1,0 +1,60 @@
+{
+  "name": "express",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./bin",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "karma start"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "bower": "^1.7.1",
+    "browserify": "^10.2.3",
+    "browserify-shim": "^3.8.11",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "hbs": "~3.1.0",
+    "left-pad": "0.0.4",
+    "morgan": "~1.6.1",
+    "serve-favicon": "~2.3.0",
+    "stylus": "0.42.3",
+    "jspm": "^0.16.19",
+    "karma-jspm": "^2.0.2"
+  },
+  "devDependencies": {
+    "babel-core": "5.8.34",
+    "babel-polyfill": "^6.3.14",
+    "babel-preset-es2015": "^6.3.13",
+    "babelify": "^7.2.0",
+    "brfs": "^1.4.1",
+    "browserify": "^10.2.3",
+    "browserify-shim": "^3.8.11",
+    "chai": "^3.4.1",
+    "es6-module-loader": "^0.17.9",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.1",
+    "gulp-sourcemaps": "1.6.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-util": "^3.0.7",
+    "karma": "0.13.15",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-mocha": "^0.2.1",
+    "karma-mocha-debug": "^0.1.2",
+    "mocha": "^2.3.4",
+    "supertest": "^1.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "jspm": true,
+  "directories": {
+    "packages": "jspm_pkg"
+  },
+  "browserify-shim": {
+    "external": "global:External",
+    "jquery": "$",
+    "three": "global:THREE"
+  }
+}
